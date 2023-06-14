@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+
+}
+
+/* *Div intera* */
+.main-box {
+    border: 3px solid rgb(133, 0, 138);
+    height: 100%;
+    display: flex;
+
+}
+
+/* *Tre scatole* */
+.column-box {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* star applica a tutto */
+* {
+    box-sizing: border-box;
+}
+
+/* classi dimensioni */
+.small {
+    flex-grow: 1;
+}
+
+.big {
+    flex-grow: 2;
+}
+
+/* scatole interne */
+.box {
+    border: 3px solid violet;
+
+}
